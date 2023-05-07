@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    background-color: #fbf9f5;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+    
+}
+header img {
+    height: 50px;
+    width: 170px;
+}
+header button {
+    height: 30px;
+    width: 90px;
+    color: black;
+    background-color: white;
+    border: 1px solid #32291c;
+    font-size: 11px;
+    
+    
+}
+header button:hover {
+    color:white ;
+    background-color: black;
+    cursor: pointer;
+    transition: 1s;
+}
+.container {
+    display: flex;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    justify-content: space-around;
+    
+    
+}
+.container div {
+    width: 50%;
+    border: 1px solid;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.animation {
+    margin: auto;
+    height: 70%;
+    width: 40%;
+    border: none;
+    animation-name:change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.container :nth-child(1){
+    border-left: none;
+    
+}
+.container :nth-child(2) {
+    padding-top: 50px;
+    border-right: none;
+
+}
+
+
+.container img {
+    height: 600px;
+    width: 300px;
+   
+}
+
+.branding {
+    border: 1px solid;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-left:none;
+    border-right: none;
+}
+.gallery {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+.gallery div {
+    text-align: center;
+    border: 1px solid;
+    padding: 50px 20px;
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+    
+
+
+}
+.gallery p {
+    position: absolute;
+    padding-bottom: 70px;
+
+}
+.gallery img {
+    width: 300px;
+    height: 400px;
+}
+.gallery img:hover {
+    content: url(images/HangTag-BrandingDesign-Thoroughfare-BrookandMain.jpg);
+    transition: 2s;
+}
+.gallery button {
+    margin-top: 20px;
+    width: 300px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.gallery button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.container2 u:hover {
+    text-decoration: none;
+    transition: 2s;
+}
+.container2 {
+    display: flex;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    justify-content: space-around;
+    
+}
+.container2 div {
+    width: 50%;
+    border: 1px solid;
+    text-align: center;
+    font-family: fantasy;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.container2 :nth-child(1){
+    border-left: none;
+}
+.container2 :nth-child(2) {
+    padding-top: 50px;
+    border-right: none;
+
+}
+
+
+.container2 img {
+    height: 600px;
+    width: 500px;
+    
+   
+}
+.text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+.text u:hover {
+    text-decoration: none;
+    transition: 2s;
+    font-family: arial;
+}
+.container3 img {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+.discription {
+    width: 50%;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+    padding-left: 100px;
+    
+}
+.form {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+    border: 1px solid;
+    
+}
+.form input {
+    width: 350px;
+    height: 35px;
+    margin: 10px;
+    text-align: center;
+    
+}
+.form button {
+    width: 350px;
+    height: 35px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid;
+
+}
+.form button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.navigator {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.navigator button {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+    border-radius: 2px;
+    
+}
+.navigator button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s;
+
+}
+.navigator p:hover {
+    text-decoration: underline;
+    transition: 2s;
+}
+footer {
+    background-color:#32291c;
+    color: #fbf9f5;
+    font-size: 13px;
+    font-family: Karla Medium;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 35px;
+    margin-top: 20px;
+}

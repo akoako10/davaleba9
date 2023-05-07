@@ -1,0 +1,15 @@
+@keyframes change {
+    0% {
+        background-image:url(images/download.jpg) ;
+    }
+    50% {
+        background-image:url(images/download\ \(1\).jpg)
+    }
+    100% {
+        background-image:url(images/HangTag-BrandingDesign-Thoroughfare-BrookandMain.jpg)
+    }
+
+
+
+
+}
